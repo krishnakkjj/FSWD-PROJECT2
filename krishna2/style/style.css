@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color:#F7F7F7;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    justify-content: space-between;
+    float: none;
+}
+.logoarea{
+    width: 10%;
+    margin-top: 20px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    margin-left:20px;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    margin-left: 40px;
+      
+}
+nav ul li:hover{
+    color: blue;
+}
+.middlearea{
+    
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    margin-top: 20px;
+    align-items: center;
+}
+.endarea{
+
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 80px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.endarea button{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    border: none;
+}
+.leftarea{
+   
+    height: 300px;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 80px;
+    float: left;
+    line-height: 50px;
+    
+   
+}
+.leftarea p{
+    line-height: 25px;
+
+
+}
+.leftarea h1{
+    font-size:50px;
+    
+}
+.rightarea{
+    height:300px;
+    width: 40%;
+     display: flex;
+    float: left;
+    margin-top: 50px;
+  
+}
+.leftarea span{
+    color: blue;
+}
+.leftarea span:hover{
+    color:red;
+}
+
+.leftarea button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    border: none;
+    
+}
+.leftarea button:hover{
+    background-color: red;
+    color: white;
+}
